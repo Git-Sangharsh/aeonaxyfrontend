@@ -1,0 +1,58 @@
+.dribble-logo{
+    width: 200px;
+    margin: 20px 50px;
+}
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-wrapper-header{
+    font-size: 60px;
+}
+
+.profile-wrapper-header-2{
+    color: grey;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.profile-wrapper-header-3{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 6px dashed rgb(187, 187, 187);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: grey;
+}
+
+.avatar-div , .avtar-choose-image{
+    display: flex;
+}
+
+.defult-text{
+    font-size: 25px;
+}
+
+.avtar-choose-image{
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+}
+.choose-image{
+    padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    width: max-content;
+    border-radius: 6px;
+}
